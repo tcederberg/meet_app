@@ -37,7 +37,7 @@ const removeQuery = () => {
     if (window.history.pushState && window.location.pathname) {
         newurl =
             window.location.protocol +
-            "/" +
+            "//" +
             window.location.host +
             window.location.pathname;
         window.history.pushState("", "", newurl);
