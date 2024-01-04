@@ -23,5 +23,4 @@ const Event = ({ event }) => {
         </li>
     );
 }
-
 export default Event;
