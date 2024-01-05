@@ -1,5 +1,11 @@
 ### Meet App - 
 
+### Link: https://tcederberg.github.io/meet_app/
+
+## Introduction
+
+**Meet App** is a serverless Progressive Web Application (PWA) built with React. Utilizing a Test-Driven Development (TDD) approach, this app seamlessly integrates with the Google Calendar API to fetch and display upcoming events.
+
 ## Objective
 Build a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application integrates with the Google Calendar API to fetch upcoming events.
 
@@ -105,3 +111,26 @@ As a user, I would like to be able to see a chart showing the upcoming events in
     **then** a chart with the number of upcoming events for every city, will be shown to the user.
 
 
+## Technical Stack
+
+- **Frontend**: Developed using React, incorporating Progressive Web App (PWA) technologies for a responsive and offline-capable user experience.
+- **Backend**: Serverless architecture leveraging AWS Lambda for scalable, maintenance-free backend solutions. Serverless functions are utilized to handle dynamic backend processes such as authentication, data processing, and integration with the Google Calendar API. This approach allows for efficient scaling, cost-effective operations (as costs are based on actual usage), and eliminates the need for dedicated server management, making the app more reliable and easier to maintain.
+- **API Integration**: Utilizing the Google Calendar API with OAuth2 authentication for secure and reliable data fetching.
+- **Testing**: Adhering to Test-Driven Development (TDD) principles with a target of at least 90% test coverage to ensure code reliability and quality.
+- **Deployment**: The app is hosted on GitHub Pages and is designed to be compatible across major browsers, ensuring a seamless user experience on various devices.
+
+## Project Requirements
+
+- **React Application**: The app is built using React, following best practices and modern development standards.
+- **Serverless Functions**: Implementation of serverless functions, preferably AWS Lambda, for handling backend processes, including authorization.
+- **Deployment Strategy**: Deployment on GitHub Pages, emphasizing accessibility and performance across different browsers and devices.
+- **PWA Compliance**: Adhering to Lighthouse's PWA checklist to guarantee a high-quality Progressive Web App experience.
+- **Offline Functionality**: Ensuring robust offline functionality using service workers for a seamless user experience even without internet connectivity.
+- **Data Visualization**: Integration of data visualization tools for effective representation of event data.
+- **Testing and Performance**:
+
+  - **Comprehensive Testing**: Embracing a thorough Test-Driven Development (TDD) approach, the application undergoes extensive testing. This includes:
+    - **Unit Testing**: Ensuring individual components function correctly.
+    - **Integration Testing**: Validating the interaction between various components.
+    - **End-to-End Testing**: Testing the entire application workflow as experienced by the end user.
+  - **Performance Optimization**: Performance assessments are conducted through tools such as Google Lighthouse to ensure optimal application speed and efficiency. Key focus areas include: - **Load Time**: Minimizing the time it takes for the app to become fully operational. - **Responsiveness**: Ensuring the app responds swiftly to user interactions regardless of the device or browser. - **Resource Efficiency**: Optimizing the use of resources to ensure a smooth, lag-free experience, especially in offline mode.
